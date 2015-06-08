@@ -1,11 +1,13 @@
-﻿Build started 08/06/2015 19:45:13.
+﻿Build started 08/06/2015 21:08:46.
      1>Project "D:\Programming\c++\Game-Engine\Sparky-core\Sparky-core\Sparky-core.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D GLEW_STATIC /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\Programming\c++\Game-Engine\Sparky-core\bin\Debug\Intermidiates\\" /Fd"D:\Programming\c++\Game-Engine\Sparky-core\bin\Debug\Intermidiates\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
-         main.cpp
-     1>d:\programming\c++\game-engine\sparky-core\sparky-core\src\maths\maths_func.h(8): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D GLEW_STATIC /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\Programming\c++\Game-Engine\Sparky-core\bin\Debug\Intermidiates\\" /Fd"D:\Programming\c++\Game-Engine\Sparky-core\bin\Debug\Intermidiates\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\graphics\window.cpp
+         window.cpp
        Link:
          D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Programming\c++\Game-Engine\Sparky-core\bin\Debug\Sparky-core.exe" /INCREMENTAL /NOLOGO glfw3.lib glew32s.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Programming\c++\Game-Engine\Sparky-core\bin\Debug\Sparky-core.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Programming\c++\Game-Engine\Sparky-core\bin\Debug\Sparky-core.lib" /MACHINE:X86 "D:\Programming\c++\Game-Engine\Sparky-core\bin\Debug\Intermidiates\main.obj"
+         "D:\Programming\c++\Game-Engine\Sparky-core\bin\Debug\Intermidiates\buffer.obj"
+         "D:\Programming\c++\Game-Engine\Sparky-core\bin\Debug\Intermidiates\indexbuffer.obj"
+         "D:\Programming\c++\Game-Engine\Sparky-core\bin\Debug\Intermidiates\vertexarray.obj"
          "D:\Programming\c++\Game-Engine\Sparky-core\bin\Debug\Intermidiates\shader.obj"
          "D:\Programming\c++\Game-Engine\Sparky-core\bin\Debug\Intermidiates\window.obj"
          "D:\Programming\c++\Game-Engine\Sparky-core\bin\Debug\Intermidiates\mat4.obj"
@@ -17,4 +19,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.64
+Time Elapsed 00:00:00.72
