@@ -14,6 +14,11 @@ int main(){
 
 	vec3 c = a + b;
 
+	mat4 position = mat4::translation(vec3(2, 3, 4));
+
+	vec4 colums = position.columns[3];
+	std::cout << colums << std::endl;
+
 	while (!window.closed()){
 		window.clear();
 		double x, y;
